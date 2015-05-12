@@ -1,0 +1,6 @@
+include AUTHORS
+include README.rst
+include LICENSE
+recursive-include fluentcms_cookielaw/locale *.po *.mo
+recursive-include fluentcms_cookielaw/templates *.html
+recursive-include fluentcms_cookielaw/static *.css *.js

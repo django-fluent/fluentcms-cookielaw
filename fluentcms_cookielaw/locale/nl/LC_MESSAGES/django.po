@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-12 15:59+0200\n"
+"PO-Revision-Date: 2015-05-12 16:01+0100\n"
+"Last-Translator: Diederik van der Boor <vdboor@edoburu.nl>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.7.4\n"
+
+#: content_plugins.py:13
+msgid "Footer"
+msgstr "Voettekst"
+
+#: models.py:14
+msgid "Text"
+msgstr "Tekst"
+
+#: models.py:14
+msgid ""
+"For example: 'We use cookies to ensure you get the best experience on our "
+"website'"
+msgstr ""
+"Bijvoorbeeld: 'We gebruiken cookies zodat je de beste weergave van onze "
+"site krijgt.'"
+
+#: models.py:15
+msgid "Button text"
+msgstr "Knop tekst"
+
+#: models.py:18
+msgid "Cookie notification"
+msgstr "Cookie melding"
+
+#: models.py:19
+msgid "Cookie notifications"
+msgstr "Cookie meldingen"
