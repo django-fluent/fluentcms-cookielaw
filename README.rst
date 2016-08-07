@@ -1,3 +1,12 @@
+.. image:: https://img.shields.io/travis/edoburu/fluentcms-cookielaw/master.svg?branch=master
+    :target: http://travis-ci.org/edoburu/fluentcms-cookielaw
+.. image:: https://img.shields.io/pypi/v/fluentcms-cookielaw.svg
+    :target: https://pypi.python.org/pypi/fluentcms-cookielaw/
+.. image:: https://img.shields.io/pypi/l/fluentcms-cookielaw.svg
+    :target: https://pypi.python.org/pypi/fluentcms-cookielaw/
+.. image:: https://img.shields.io/codecov/c/github/edoburu/fluentcms-cookielaw/master.svg
+    :target: https://codecov.io/github/edoburu/fluentcms-cookielaw?branch=master
+
 fluentcms-cookielaw
 ===================
 
@@ -76,4 +85,4 @@ Contributing
 If you like this module, forked it, or would like to improve it, please let us know!
 Pull requests are welcome too. :-)
 
-.. _django-fluent-contents: https://github.com/edoburu/django-fluent-contents
+.. _django-fluent-contents: https://github.com/django-fluent/django-fluent-contents
