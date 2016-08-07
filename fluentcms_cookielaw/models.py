@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.encoding import python_2_unicode_compatible
 from django.utils.html import strip_tags
+from django.utils.text import Truncator
 from django.utils.translation import ugettext_lazy as _
 from fluent_contents.extensions import PluginHtmlField
 from fluent_contents.models import ContentItem
@@ -19,4 +20,4 @@ class CookieLawItem(ContentItem):
         verbose_name_plural = _("Cookie notifications")
 
     def __str__(self):
-        return strip_tags(self.text).strip()
+        return Truncator(strip_tags(self.text)).words(20)
