@@ -13,7 +13,7 @@ before_install:
 install:
 - travis_retry pip install $DJANGO -e .
 script:
-- coverage run --source=fluentcms_cookielaw --exclude='*/south_migrations/*' runtests.py
+- coverage run --source=fluentcms_cookielaw --omit='*/south_migrations/*' runtests.py
 after_success:
 - codecov
 branches:
