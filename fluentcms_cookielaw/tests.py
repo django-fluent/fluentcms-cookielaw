@@ -23,4 +23,4 @@ class CookieLawTests(TestCase):
                                         Do you like cookies?
                                     </div>
                                 </div>''')
-        self.assertHTMLEqual(output.media, '<script type="text/javascript" src="/static/fluentcms_cookielaw/js/cookielaw.js"></script>')
+        self.assertHTMLEqual(str(output.media), '<script type="text/javascript" src="/static/fluentcms_cookielaw/js/cookielaw.js"></script>')
