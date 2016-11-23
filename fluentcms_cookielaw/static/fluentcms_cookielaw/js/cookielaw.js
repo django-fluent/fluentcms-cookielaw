@@ -3,8 +3,12 @@ var Cookielaw = {
     onReady: function() {
         // Hide the banner when the cookie law is already accepted.
         // This is done client-side so the whole content can be cached server-side.
+        var banner = document.getElementById('cookielaw-banner');
         if(document.cookie.indexOf('cookielaw_accepted=1') != -1) {
-            document.getElementById('cookielaw-banner').style.display = 'none';
+            banner.style.display = 'none';
+        }
+        else {
+            banner.style.display = 'block';
         }
     },
 
