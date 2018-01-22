@@ -1,20 +1,25 @@
-sudo: false
 language: python
+sudo: false
+cache: pip
 python:
-- '2.7'
+- '3.6'
 - '3.4'
+- '2.7'
 env:
-- DJANGO="django>=1.8.0,<1.9.0 django-polymorphic<2.0"
-- DJANGO="django>=1.9.0,<1.10.0 django-polymorphic<2.0"
-- DJANGO="django>=1.10.0,<1.11.0 django-polymorphic<2.0"
-- DJANGO="django>=1.11.0,<2.0"
+- PACKAGES="django>=1.10,<1.11 django-polymorphic<2.0"
+- PACKAGES="django>=1.11,<1.12"
+- PACKAGES="django>=2.0,<2.1"
+matrix:
+  exclude:
+  - python: '2.7'
+    env: PACKAGES="django>=2.0,<2.1"
 before_install:
 - pip install -U pip wheel setuptools
 - pip install codecov
 install:
-- travis_retry pip install $DJANGO -e .
+- pip install $PACKAGES -e .
 script:
-- coverage run --source=fluentcms_cookielaw --omit='*/south_migrations/*' runtests.py
+- coverage run --source=fluentcms_cookielaw runtests.py
 after_success:
 - codecov
 branches:
