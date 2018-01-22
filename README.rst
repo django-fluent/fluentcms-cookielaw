@@ -1,11 +1,11 @@
-.. image:: https://img.shields.io/travis/edoburu/fluentcms-cookielaw/master.svg?branch=master
-    :target: http://travis-ci.org/edoburu/fluentcms-cookielaw
+.. image:: https://img.shields.io/travis/django-fluent/fluentcms-cookielaw/master.svg?branch=master
+    :target: http://travis-ci.org/django-fluent/fluentcms-cookielaw
 .. image:: https://img.shields.io/pypi/v/fluentcms-cookielaw.svg
     :target: https://pypi.python.org/pypi/fluentcms-cookielaw/
 .. image:: https://img.shields.io/pypi/l/fluentcms-cookielaw.svg
     :target: https://pypi.python.org/pypi/fluentcms-cookielaw/
-.. image:: https://img.shields.io/codecov/c/github/edoburu/fluentcms-cookielaw/master.svg
-    :target: https://codecov.io/github/edoburu/fluentcms-cookielaw?branch=master
+.. image:: https://img.shields.io/codecov/c/github/django-fluent/fluentcms-cookielaw/master.svg
+    :target: https://codecov.io/github/django-fluent/fluentcms-cookielaw?branch=master
 
 fluentcms-cookielaw
 ===================
