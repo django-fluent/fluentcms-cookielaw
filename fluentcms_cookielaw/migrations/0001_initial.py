@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
         migrations.CreateModel(
             name='CookieLawItem',
             fields=[
-                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem')),
+                ('contentitem_ptr', models.OneToOneField(parent_link=True, auto_created=True, primary_key=True, serialize=False, to='fluent_contents.ContentItem', on_delete=models.CASCADE)),
                 ('text', fluent_contents.extensions.PluginHtmlField(help_text="For example: 'We use cookies to ensure you get the best experience on our website'", verbose_name='Text')),
                 ('button_text', models.CharField(max_length=100, verbose_name='Button text')),
             ],
