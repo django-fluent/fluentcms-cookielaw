@@ -1,13 +1,11 @@
 from django.db import models
-from django.utils.encoding import python_2_unicode_compatible
 from django.utils.html import strip_tags
 from django.utils.text import Truncator
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from fluent_contents.extensions import PluginHtmlField
 from fluent_contents.models import ContentItem
 
 
-@python_2_unicode_compatible
 class CookieLawItem(ContentItem):
     """
     Cookie law item
