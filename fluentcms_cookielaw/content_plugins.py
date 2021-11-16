@@ -1,5 +1,6 @@
 from django.utils.translation import gettext_lazy as _
-from fluent_contents.extensions import plugin_pool, ContentPlugin
+from fluent_contents.extensions import ContentPlugin, plugin_pool
+
 from . import appsettings
 from .models import CookieLawItem
 
@@ -9,6 +10,7 @@ class CookieLawPlugin(ContentPlugin):
     """
     Showing a cookie law notification
     """
+
     model = CookieLawItem
     category = _("Footer")
     render_template = "fluentcms_cookielaw/banner.html"

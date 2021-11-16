@@ -10,7 +10,13 @@ class CookieLawItem(ContentItem):
     """
     Cookie law item
     """
-    text = PluginHtmlField(_("Text"), help_text=_("For example: 'We use cookies to ensure you get the best experience on our website'"))
+
+    text = PluginHtmlField(
+        _("Text"),
+        help_text=_(
+            "For example: 'We use cookies to ensure you get the best experience on our website'"
+        ),
+    )
     button_text = models.CharField(_("Button text"), max_length=100)  # e.g. "Close" or "Accept"
 
     class Meta:
