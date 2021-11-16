@@ -1,5 +1,8 @@
-.. image:: https://img.shields.io/travis/django-fluent/fluentcms-cookielaw/master.svg?branch=master
-    :target: http://travis-ci.org/django-fluent/fluentcms-cookielaw
+fluentcms-cookielaw
+===================
+
+.. image:: https://github.com/django-fluent/fluentcms-cookielaw/actions/workflows/tests.yaml/badge.svg?branch=master
+    :target: https://github.com/django-fluent/fluentcms-cookielaw/actions/workflows/tests.yaml
 .. image:: https://img.shields.io/pypi/v/fluentcms-cookielaw.svg
     :target: https://pypi.python.org/pypi/fluentcms-cookielaw/
 .. image:: https://img.shields.io/pypi/l/fluentcms-cookielaw.svg
@@ -7,8 +10,6 @@
 .. image:: https://img.shields.io/codecov/c/github/django-fluent/fluentcms-cookielaw/master.svg
     :target: https://codecov.io/github/django-fluent/fluentcms-cookielaw?branch=master
 
-fluentcms-cookielaw
-===================
 
 A plugin for django-fluent-contents_ to show a cookie notification on a website.
 
